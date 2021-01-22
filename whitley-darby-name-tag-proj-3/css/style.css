@@ -1,0 +1,169 @@
+body{
+    background-color: silver;
+}
+
+#writing {
+    position: absolute;
+    left: 787px;
+    top: 299px;
+}
+
+h5 {
+    color: #000000;
+    font-size: 36px;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+}
+
+#nametag-container{
+    width: 753px;
+    height:473px;
+    background: #FFF1ED;
+    margin: 20px auto 0;
+    position: absolute;
+    
+
+}
+
+#text {
+    position: absolute;
+    left: 0;
+    top: 120px;
+    padding-left: 40px; 
+    z-index: 3;
+}
+
+h1,
+h2 {
+    /* text-align: left ; */
+    color: #000000;
+    font-size: 64px;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    line-height: 1;
+    margin: 0;
+}
+
+h1{
+    /* position: absolute;
+    width: 318px;
+    height: 95px;
+    left: 50%;
+    top: 136px;
+    z-index: 3; */
+}
+
+h2{
+    /* position: absolute;
+    width: 616px;
+    height: 95px;
+    top: 183px;
+    z-index: 3; */
+}
+
+#backcontainer{
+    width: 753px;
+    height:473px;
+    background: #FFF1ED;
+    margin: 540px auto 0;
+    position: absolute;
+    
+}
+
+#backcontainer:hover .barcode-container span {
+    opacity: .5;
+    transform: translateY(-10px);
+}
+
+#backtext{
+    position: absolute;
+    left: 0;
+    top: 300px;
+    padding-left: 284px; 
+    z-index: 3;
+}
+
+h3,
+h4 {
+    text-align: center;
+    color: #000000;
+    font-size: 24px;
+    font-family: 'Tenali Ramakrishna', sans-serif;   
+    margin: 0;
+  
+}
+
+/* h3{
+    width:390px;
+    height:29px;
+    left: 505.3px;
+    top: 920.5px;
+}
+
+h4{
+    width:390px;
+    height:29px;
+    left: 505.3px;
+    top: 956.5px;
+} */
+
+
+.barcode-container {
+    text-align:center;
+    box-sizing: border-box;
+    height:115.5px;
+    left: 489.3px;
+    top: 768.5px;
+
+
+}
+
+#barcode{
+    position: absolute;
+    top: 160px;
+    padding-left: 175px; 
+    z-index: 3;
+}
+.barcode-container span {
+    width:21px ;
+    height:115px ;
+    background: #000000;
+    border: 1px solid #000000;
+    display: inline-block;
+    transition: all .7s ease-in-out;
+}
+
+#shapes {
+    position: relative;
+    z-index: 2;
+}
+
+.vectorshape-1 {
+    position: absolute;
+    width: 0;
+    height:0;
+    left: 0;
+    top: 0px;
+    border-top: 472.5px solid #FFFFFF;
+    border-right: 752px solid transparent;
+    transition: all .7s ease-in;
+}
+
+.vectorshape-2 {
+    position: absolute;
+    width: 0;
+    height:0;
+    left: 0;
+    top: 0;
+    border-bottom: 472.5px solid #000000;
+    border-right: 753px solid transparent;
+    transition: all .7s ease-in;
+}
+
+#shapes:hover .vectorshape-1 {
+    opacity: .5;
+    transform: translateY(-10px);
+}
+
+#shapes:hover .vectorshape-2 {
+    opacity: .5;
+    transform: translateY(-10px);
+}

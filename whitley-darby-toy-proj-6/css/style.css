@@ -1,0 +1,215 @@
+body {
+   background-color: rgb(215, 216, 173);
+}
+
+#toy-body {
+    position: absolute;
+    width: 673px;
+    height: 678px;  
+    left: 350px;
+    background: #BD1414;
+    border-radius: 60px;
+}
+.grid-container {
+    margin-top: 30px;
+    margin-right: 70px;
+    margin-left: 20px;
+    margin-bottom: 95px;
+    width: 635px;
+    height: 475px;
+    display: inline-grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+}
+/* .screen span {
+    position: absolute;
+    width: 565px;
+    height: 437px;
+    left: 56px;
+    top: 40px;
+    background: #ECECEC;
+    border-radius: 43px; 
+} */
+
+.square {
+    background: grey;
+}
+
+.black {
+    background: black;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.square[data-hovered="false"] {
+    background: grey;
+}
+
+.right-knob span {
+    position: absolute;
+    width: 133px;
+    height: 133px;
+    left: 458px;
+    top: 512px;
+    background: #DFDADA;
+    border-radius: 75px;
+}
+
+.left-knob span {
+    position: absolute;
+    width: 133px;
+    height: 133px;
+    left: 78px;
+    top: 515px;
+    background: #DFDADA;
+    border-radius: 75px;
+}
+
+.inside-right-knob span {
+    position: absolute;
+    width: 98px;
+    height: 98px;
+    left: 476px;
+    top: 530px;
+    background: #FFFFFF;
+    border-radius: 75px;
+}
+
+.inside-left-knob span {
+    position: absolute;
+    width: 96px;
+    height: 98px;
+    left: 97px;
+    top: 533px;
+    background: #FFFFFF;
+    border-radius: 75px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: lavenderblush ;
+    font-family: verdana, sans-serif;
+    font-size: 15px;
+    border-radius: 7px;
+}
+
+#instructions {
+    background-color: rgb(215, 216, 173);
+    position: absolute;
+    width: 300px;
+    height: 98px;
+    left: 41px;
+    top: 135px;
+}
+
+h1 {
+    color: maroon;
+    font-size: 44px;
+    margin: auto;
+}
+
+#instructions p {
+    font-size: 20px;
+}
+
+#why-you-can-not-draw-what-you-want {
+    background-color: rgb(215, 216, 173);
+    position: absolute;
+    width: 300px;
+    height: 98px;
+    left: 1070px;
+    top: 590px;
+
+}
+
+#why-you-can-not-draw-what-you-want p {
+    font-size: 10px;
+}
+
+/* mobile */
+@media (max-width: 375px) {
+    #toy-body {
+        position: absolute;
+        width: 629px;
+        height: 678px; 
+        top: 322px; 
+        left: 11px;
+        background: #BD1414;
+        border-radius: 60px;
+    }
+    .grid-container {
+        margin-top: 38px;
+        margin-right: 70px;
+        margin-left: 23px;
+        margin-bottom: 82px;
+        width: 583px;
+        height: 475px;
+        display: inline-grid;
+        grid-template-columns: repeat(20, 1fr);
+        grid-template-rows: repeat(20, 1fr);
+    }
+
+    .right-knob span {
+        position: absolute;
+        width: 133px;
+        height: 133px;
+        left: 449px;
+        top: 527px;
+        background: #DFDADA;
+        border-radius: 75px;
+    }
+    
+    .left-knob span {
+        position: absolute;
+        width: 133px;
+        height: 133px;
+        left: 64px;
+        top: 527px;
+        background: #DFDADA;
+        border-radius: 75px;
+    }
+    
+    .inside-right-knob span {
+        position: absolute;
+        width: 98px;
+        height: 98px;
+        left: 467px;
+        top: 545px;
+        background: #FFFFFF;
+        border-radius: 75px;
+    }
+    
+    .inside-left-knob span {
+        position: absolute;
+        width: 96px;
+        height: 98px;
+        left: 83px;
+        top: 544px;
+        background: #FFFFFF;
+        border-radius: 75px;
+    }
+
+    #instructions {
+        background-color: rgb(215, 216, 173);
+        position: absolute;
+        width: 414px;
+        height: 98px;
+        left: 141px;
+        top: 87px;
+    }
+    #why-you-can-not-draw-what-you-want {
+        background-color: rgb(215, 216, 173);
+        position: absolute;
+        width: 300px;
+        height: 98px;
+        left: 172px;
+        top: 1030px;
+    
+    }
+}
+
