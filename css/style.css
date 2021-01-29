@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(234, 192, 253);
+  color: rgb(239, 209, 253);
 }
 
 #list-container {
@@ -20,14 +20,17 @@ ul {
   padding: 61px;
   height: 300px;
   width: 619px;
-  background-color: rgb(200, 200, 238);
+  background-color: rgb(215, 215, 255);
   
 }
 
 .classmates-github {
   text-align: center;
-  font-size: 26px;
   height: 300px;
   width: 619px;
-  left: 50px;
+  left: 500px;
+}
+
+.classmates-github a {
+  font-size: 78px;
 }
