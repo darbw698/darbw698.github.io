@@ -28,15 +28,16 @@ ul {
 #classmates-list{
   width: 753px;
   height: 973px;
+  margin-top: -45%;
 
 }
 
 #classmates-github li {
-  margin-top: 5%;
-  left: 560px;
+  margin-top: 1%;
+
   
 }
 
 #classmates-github a {
-  font-size: 50px;
+  font-size: 25px;
 }
