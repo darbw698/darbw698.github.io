@@ -44,23 +44,24 @@
 
 #image-4 {
     position: absolute;
-    top: 50% ;
+    top: 53% ;
     left: 8% ;
     right: 54% ;
 }
 
 #image-5 {
     position: absolute;
-    top: 50% ;
+    top: 53% ;
     left: 29% ;
     right: 54% ;
 }
 
-#image-6 {
+#image-6 hover {
     position: absolute;
-    top: 50% ;
+    top: 53% ;
     left: 50% ;
     right: 3% ;
+    transition: all 7s ease-in-out ;
     
 }
 
