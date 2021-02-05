@@ -1,0 +1,109 @@
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 120px ;
+    font-weight: 700;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+.short-snippit-about-chow {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 31px ;
+    font-weight: 400;
+    margin: auto;
+    margin-left: 300px;
+    margin-right: 144px;
+}
+
+#contents {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px ;
+    font-weight: 400;
+    margin: auto;
+    margin-top: -200px;
+}
+
+.titles {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 79px ;
+    font-weight: 700;
+}
+
+.history {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 26px ;
+    font-weight: 400;
+    margin: auto;
+    margin-left: 200px;
+    margin-right: 60px;
+}
+
+.appearance {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 26px ;
+    font-weight: 400;
+    margin: auto;
+    margin-left: 200px;
+    margin-right: 60px;
+}
+
+.temperament {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 26px ;
+    font-weight: 400;
+    margin: auto;
+    margin-left: 200px;
+    margin-right: 60px;
+}
+
+.colors {
+    margin: auto;
+    margin-left: 200px;
+    margin-right: 60px;
+}
+
+
+.health {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 26px ;
+    font-weight: 400;
+    margin: auto;
+    margin-left: 200px;
+    margin-right: 60px;
+}
+
+.grooming {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 26px ;
+    font-weight: 400;
+    margin: auto;
+    margin-left: 200px;
+    margin-right: 60px;
+}
+
+.notable-owners {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 26px ;
+    font-weight: 400;
+    margin: auto;
+    margin-left: 200px;
+    margin-right: 60px;
+}
+
+.see-also {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 26px ;
+    font-weight: 400;
+    margin: auto;
+    margin-left: 200px;
+    margin-right: 60px;
+}
+
+.reference {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px ;
+    font-weight: 400;
+    margin: auto;
+    margin-left: 200px;
+    margin-right: 60px;
+}
