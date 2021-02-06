@@ -2,7 +2,12 @@ body {
   background-color: rgb(215, 187, 228);
 }
 
-#list-container {
+#project-list-container {
+  width: 753px;
+  height: 973px;
+}
+
+#lab-list-container {
   width: 753px;
   height: 973px;
 }
