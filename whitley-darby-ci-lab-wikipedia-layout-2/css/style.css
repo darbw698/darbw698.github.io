@@ -1,0 +1,129 @@
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 600;
+    font-size: 300px;
+    text-align: center;
+    margin: auto;
+    color: rgb(248, 228, 204);
+}
+
+.short-snippit-about-chow {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: left;
+    text-align: justify;
+    line-height: 1.2em;
+    margin: auto;
+    margin-top: -58px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.titles {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 200px;
+    margin-bottom: -51px;
+}
+
+.history {
+    font-family: 'Karla', sans-serif;
+    font-weight: 200;
+    font-size: 26px;
+    text-align: left;
+    text-align: justify;
+    color: rgb(230, 113, 113);
+    margin-left: 30px;
+    margin-right: 878px;
+}
+
+.appearance {
+    font-family: 'Karla', sans-serif;
+    font-weight: 200;
+    font-size: 26px;
+    text-align: left;
+    text-align: justify;
+    color: rgb(201, 149, 89);
+    margin-left: 595px;
+    margin-right: 40px;
+    margin-top: -829px;
+}
+
+.temperament {
+    font-family: 'Karla', sans-serif;
+    font-weight: 200;
+    font-size: 26px;
+    text-align: left;
+    text-align: justify;
+    color: rgb(74, 122, 177);
+    margin-left: 30px;
+    margin-right: 495px;
+}
+
+.colors {
+    margin-left: 958px;
+    margin-right: 40px;
+    margin-top: -1421px;
+}
+
+.grooming {
+    font-family: 'Karla', sans-serif;
+    font-weight: 200;
+    font-size: 26px;
+    text-align: left;
+    text-align: justify;
+    color: rgb(228, 200, 167);
+    margin-left: 30px;
+    margin-right: 754px;
+    margin-top: -1290px;
+}
+
+.health {
+    font-family: 'Karla', sans-serif;
+    font-weight: 200;
+    font-size: 26px;
+    text-align: left;
+    text-align: justify;
+    color: rgb(230, 113, 113);
+    margin-left: 30px;
+    margin-right: 929px;
+    margin-top: 19px;
+}
+
+
+
+.notable-owners {
+    font-family: 'Karla', sans-serif;
+    font-weight: 200;
+    font-size: 26px;
+    text-align: left;
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 869px;
+    margin-top: 50px;
+}
+
+.reference {
+    font-family: 'Karla', sans-serif;
+    font-weight: 200;
+    font-size: 26px;
+    text-align: left;
+    text-align: justify;
+    color: rgb(74, 122, 177);
+    margin-left: 722px;
+    margin-right: 10px;
+    margin-top: -2115px;
+}
+
+.see-also {
+    font-family: 'Karla', sans-serif;
+    font-weight: 200;
+    font-size: 26px;
+    text-align: left;
+    text-align: justify;
+    color: rgb(201, 149, 89);
+    margin-left: 30px;
+    margin-right: 824px;
+    margin-top: -700px;
+}
