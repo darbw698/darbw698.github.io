@@ -12,6 +12,7 @@ body {
   width: 753px;
   height: 973px;
   margin: auto;
+  margin-top: 8px;
 }
 
 h1 {
@@ -24,8 +25,7 @@ ul {
   text-align: center;
   font-size: 26px;
   list-style: inside;
-  margin-left: 5px;
-  padding: 61px;
+  margin: auto;
   height: 300px;
   width: 619px;
   background-color: rgb(215, 215, 255);
