@@ -12,7 +12,7 @@ body {
   width: 753px;
   height: 973px;
   margin: auto;
-  margin-top: 8px;
+  margin-top: -499px;
 }
 
 h1 {
@@ -25,7 +25,6 @@ ul {
   text-align: center;
   font-size: 26px;
   list-style: inside;
-  margin: auto;
   height: 300px;
   width: 619px;
   background-color: rgb(215, 215, 255);
@@ -35,7 +34,7 @@ ul {
 #classmates-list{
   width: 753px;
   height: 973px;
-  margin-top: -31%;
+  margin-top: -97%;
 
 }
 
