@@ -5,15 +5,17 @@ body {
 #project-list-container {
   width: 753px;
   height: 973px;
+  margin: auto;
 }
 
 #lab-list-container {
   width: 753px;
   height: 973px;
+  margin: auto;
 }
 
 h1 {
-  text-align: center;
+  text-align: left;
   font-size: 50px;
   color: black ;
 }
