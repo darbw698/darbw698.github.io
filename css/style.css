@@ -1,49 +1,48 @@
-body {
-  background-color: rgb(215, 187, 228);
-}
-
-#project-list-container {
-  width: 753px;
-  height: 973px;
-  margin: auto;
-}
-
-#lab-list-container {
-  width: 753px;
-  height: 973px;
-  margin: auto;
-  margin-top: -499px;
-}
-
 h1 {
-  text-align: left;
-  font-size: 50px;
-  color: black ;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 120px ;
+  font-weight: 700;
+  margin: auto;
+  text-transform: uppercase;
 }
 
-ul {
-  text-align: center;
-  font-size: 26px;
-  list-style: inside;
-  height: 300px;
-  width: 619px;
-  background-color: rgb(215, 215, 255);
-  
+.short-snippit-about-me {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 31px ;
+  font-weight: 400;
+  margin: auto;
+  margin-left: 300px;
+  margin-right: 144px;
 }
 
-#classmates-list{
-  width: 753px;
-  height: 973px;
-  margin-top: -97%;
-
+#contents {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 20px ;
+  font-weight: 400;
+  margin: auto;
+  margin-top: -200px;
 }
 
-#classmates-github li {
-  margin-top: 1%;
-
-  
+.titles {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 79px ;
+  font-weight: 700;
 }
 
-#classmates-github a {
-  font-size: 25px;
+.projects {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 26px ;
+  font-weight: 400;
+  margin: auto;
+  margin-left: 200px;
+  margin-right: 60px;
+}
+
+.labs {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 26px ;
+  font-weight: 400;
+  margin: auto;
+  margin-left: 200px;
+  margin-right: 60px;
 }
