@@ -1,0 +1,178 @@
+@keyframes pluse {
+    0%, {
+        background-color: #CCFFFF;
+    }
+    10% {
+        background-color: #E5CCFF;
+    }
+    20% {
+        background-color: #CCFFCC;
+    }
+    50% {
+        background-color: #FFE5CC;
+    }
+    100% {
+        background-color: #FFFFCC;
+    }
+}
+
+body {
+    animation: pluse 6s infinite;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 7fr 2fr;
+    grid-gap: 5px;
+}
+
+.grid-item {
+    height: 420px;
+}
+
+.flexbox {
+    display: flex;
+    height: 100%;
+}
+
+.flexbox-item {
+    margin: auto;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+@keyframes eventTitle {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+img {
+    max-width: 100%;
+
+   
+}
+
+h1 {
+    font-size: 100px;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffa8a8;
+    animation: eventTitle 4s infinite ease;
+}
+
+p {
+    font-size: 25px;
+    font-family: 'Almarai', sans-serif;
+    font-weight: 300;
+    text-align: left;
+    line-height: 1.2em;
+}
+
+.titles {
+    font-size: 60px;
+    text-align: center;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+.info {
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .grid {
+      display: block;
+     }
+    
+    .grid- {
+      text-align: center;
+    }
+    h1 {
+        font-size: 160px;
+    }
+    p {
+        font-size: 50px;
+    }
+    .titles {
+        font-size: 90px;
+    }
+    .info {
+        font-size: 80px ;
+    }
+  }
+
+@media screen and (max-width: 700px) {
+    .grid {
+      display: block;
+     }
+    
+    .grid- {
+      text-align: center;
+    }
+    h1 {
+        font-size: 110px;
+    }
+    p {
+        font-size: 40px;
+    }
+    .titles {
+        font-size: 70px;
+    }
+    .info {
+        font-size: 50px;
+    }
+    
+  }
+
+  @media screen and (max-width: 568px) {
+    .grid {
+      display: block;
+     }
+    
+    .grid- {
+      text-align: center;
+    }
+    h1 {
+        font-size: 90px;
+    }
+    p {
+        font-size: 30px;
+    }
+    .titles {
+        font-size: 70px;
+    }
+    .info {
+        font-size: 40px;
+    }
+  }
+  
+
+
+  @media screen and (max-width: 375px) {
+    .grid {
+      display: block;
+     }
+    
+    .grid- {
+      text-align: center;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    p {
+        font-size: 30px;
+    }
+    .titles {
+        font-size: 70px;
+    }
+    .info {
+        font-size: 40px;
+    }
+  }
+  
