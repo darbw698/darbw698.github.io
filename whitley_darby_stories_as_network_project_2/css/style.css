@@ -1,0 +1,22 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 7fr 1fr;
+    grid-gap: 10px;
+  }
+  
+  .grid-item {
+    border: 1px solid black;
+    height: 1238px;
+  }
+
+  .grid-inside {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+  
+
+  .grid-item-inside {
+    border: 1px solid black;
+    height: 300px;
+  }
