@@ -5,18 +5,44 @@
   }
   
   .grid-item {
-    border: 1px solid black;
-    height: 1238px;
+    height: 1500px;
   }
 
   .grid-inside {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 18px;
   }
   
 
   .grid-item-inside {
     border: 1px solid black;
-    height: 300px;
+    height: 700px;
+    background-color: black;
   }
+
+  img {
+    max-width: 100%;
+  }
+
+  .flexbox {
+    display: flex;
+    height: 100%;
+}
+
+.flexbox-item {
+    margin: auto;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+.number {
+  font-size: 40px;
+  color: white;
+  
+}
+
+p{
+  color: white;
+}
+
