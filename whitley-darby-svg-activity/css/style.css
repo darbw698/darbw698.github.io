@@ -1,0 +1,85 @@
+ 
+  body {
+      background-color: rgb(205, 221, 255);
+  }
+  
+  .container {
+    margin-top: 40px;
+    margin-left: 460px;
+  }
+
+  header {
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    animation: fade 2s ease-in infinite alternate
+  }
+
+
+  #afro-poof {
+    height:500px;
+    animation: sizing 5s infinite linear;
+  }
+
+
+  #afro-poof path {
+    animation: colorSwap 3s 2s ease infinite alternate, fade 7s ease-in infinite alternate;
+  }
+
+
+  @keyframes sizing {
+    0% {
+        transform: rotate(0deg) scale(2.1);
+      }
+      
+      25% {
+        transform: rotate(0) scale(0.05);
+      }
+      
+      50% {
+        transform: rotate(1turn) scale(2.1);
+      }
+      
+      75% {
+        transform: rotate(0) scale(0.05);
+      }
+      
+      100% {
+        transform: rotate(0) scale(2.1);
+      }
+}
+
+@keyframes fade {
+    0% {
+       opacity: 1;
+         
+     }
+     100%{
+        opacity: 0;
+ 
+     }
+}
+
+
+  @keyframes colorSwap {
+    0% {
+       fill: default;
+        
+    }
+
+    20% {
+        fill: #934e42;
+    }
+
+    50% {
+        fill:#562b2b ;
+    }
+
+    100% {
+        fill: #c16a48;
+
+    }
+}
+
+
+
