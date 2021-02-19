@@ -36,7 +36,7 @@
   border-radius: 5px;
   }
 
-  .modal-container {
+  .modalContainer {
     background-color: rgba(0, 0, 0, 0.3);
     position: fixed;
     display: flex;
@@ -50,7 +50,7 @@
     width: 100vw;
   }
 
-  .modal-container.show {
+  .modalContainer.show {
     pointer-events: auto;
     opacity: 1;
   }

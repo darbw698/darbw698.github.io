@@ -1,16 +1,20 @@
 window.addEventListener("load",function() {
-   
-    const open = document.getElementsByClassName ('.open');
-    const modal_container = document.getElementsByClassName ('.modal-container');
-    const close = document.getElementsByClassName ('.close');
 
-    open.addEventListener('click',() => {
-        modal_container.classList.add('show');
-    })
+    var open = document.querySelectorAll('.fas fa-comment fa-lg')
 
-    close.addEventListener('click',() => {
-        modal_container.classList.remove('show');
-    })
+
+
+    // const open = document.getElementsByClassName ('.fas fa-comment fa-lg');
+    // const modalContainer = document.getElementsByClassName ('.modalContainer');
+    // const close = document.getElementsByClassName ('.close');
+
+    // open.addEventListener('click',() => {
+    //     modalContainer.classList.add('show');
+    // })
+
+    // close.addEventListener('click',() => {
+    //     modalContainer.classList.remove('show');
+    // })
     
 
 
