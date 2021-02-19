@@ -2,41 +2,36 @@
     box-sizing: border-box;
 }
 
-.page-wrap {
-    background: white;
-    height: calc(100vh - 10px);
-  
+body {
+  background-color: rgb(255, 239, 219);
+}
+
+.grid {
     display: grid;
-    grid-template-columns: minmax(10px, 1fr) minmax(10px, 7fr);
-    grid-template-rows: min-content min-content 1fr min-content;
+    grid-template-columns: .20fr 1fr ;
   
-  
-     /* @media (max-width: 600px) {
-      grid-template-columns: 100%;
-      grid-template-rows: auto;
-      
-    } */
   }
 
   .page-header {
-    grid-column: 1 / -1;
+    font-family: 'Oi', cursive;
+    grid-column: 1/-1;
     font-size: 100px;
     text-align: center;
+    letter-spacing: 1em;
   }
   
   .page-sidebar {
-    grid-column: 1 / 1;
-    grid-row: 2 / 4;
+    grid-column: 1 
   }
 
   li {
-      line-height: 1.6em;
-      font-size: 20px;
+      line-height: 1.5em;
+      font-size: 17px;
+      font-family: 'Montserrat Alternates', sans-serif;
   }
 
   .page-main {
     grid-column: 2 / 3;
-    background: #ddd5d5;
   }
   .page-footer {
     grid-column: 1 / -1;
@@ -44,7 +39,8 @@
 
   p {
       text-align: center;
-      font-size: 20px;
+      font-size: 15px;
+      font-family: 'Montserrat Alternates', sans-serif;
   }
 
 
@@ -68,3 +64,98 @@
     width: calc(100% / 5);
 }
 
+@media screen and (max-width: 1024px) {
+  .page-header {
+    font-size: 90px;
+    text-align: center;
+    letter-spacing: 1em;
+  }
+  
+  .container {
+    display: block;
+    height: 286.1vh;
+   }
+
+   .box {
+    border: 1px solid;
+    padding: 0;
+    text-align: center;
+    width: calc(100% / 1);
+}
+  li {
+    line-height: 2em;
+    font-size: 29px;
+}
+
+  p{
+    font-size: 30px;
+  }
+
+}
+
+@media screen and (max-width: 700px) {
+  .page-header {
+    font-size: 58px;
+    text-align: center;
+    letter-spacing: 1em;
+  }
+  
+  .container {
+    display: block;
+    height: 480.1vh;
+   }
+
+   .box {
+    border: 1px solid;
+    padding: 0;
+    text-align: center;
+    width: calc(100% / 1);
+}
+  
+}
+
+@media screen and (max-width: 568px) {
+  .page-header {
+    font-size: 58px;
+    text-align: center;
+    letter-spacing: 1em;
+  }
+  
+  .container {
+    display: block;
+    height: 480.1vh;
+   }
+
+   .box {
+    border: 1px solid;
+    padding: 0;
+    text-align: center;
+    width: calc(100% / 1);
+}
+ 
+}
+
+
+@media screen and (max-width: 375px) {
+  .page-header {
+    font-size: 58px;
+    text-align: center;
+    letter-spacing: 1em;
+  }
+  
+  .container {
+    display: block;
+    height: 480.1vh;
+   }
+
+   .box {
+    border: 1px solid;
+    padding: 0;
+    text-align: center;
+    width: calc(100% / 1);
+  }
+  li {
+    font-size: 16px;
+  }
+  
+}
