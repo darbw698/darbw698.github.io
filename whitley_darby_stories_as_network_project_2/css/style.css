@@ -1,47 +1,45 @@
+.home-grid {
+  display: grid;
+  grid-template-columns: 2fr;
+  grid-gap: 10px;
+}
 
-  .home-grid {
-    display: grid;
-    grid-template-columns: 2fr ;
-    grid-gap: 10px;
-  }
-  
+.home-grid-item {
+  height: 600px;
+}
 
-  .home-grid-item {
-    height: 600px;
-  }
+body {
+  background-color: black;
+}
 
-  body {
-    background-color: black ;
-  }
-  
-  .grid {
-    display: grid;
-    grid-template-columns: 0.3fr 7fr 0.3fr;
-    grid-gap: 10px;
-  }
-  
-  .grid-item {
-    height: 1200px;
-  }
+.grid {
+  display: grid;
+  grid-template-columns: 0.3fr 7fr 0.3fr;
+  grid-gap: 10px;
+}
 
-  .grid-inside {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 18px;
-  }
+.grid-item {
+  height: 1200px;
+}
 
-  .grid-item-inside {
-    border: 1px solid black;
-    height: 700px;
-    background-color: black;
-  }
+.grid-inside {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 18px;
+}
 
-  img {
-    max-width: 70%;
-    margin-left: 7px;
-    
-  }
-  .modal {
+.grid-item-inside {
+  border: 1px solid black;
+  height: 700px;
+  background-color: black;
+}
+
+img {
+  max-width: 70%;
+  margin-left: 7px;
+}
+
+.modal {
   box-sizing: border-box;
   background-color: rgb(231, 120, 101);
   color: antiquewhite;
@@ -49,36 +47,36 @@
   max-width: 100%;
   padding: 30px 50px;
   border-radius: 5px;
-  }
+}
 
-  .modalContainer {
-    background-color: rgba(0, 0, 0, 0.3);
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    pointer-events: none;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-  }
+.modalContainer {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
 
-  .modalContainer.show {
-    pointer-events: auto;
-    opacity: 1;
-  }
+.modalContainer.show {
+  pointer-events: auto;
+  opacity: 1;
+}
 
-  .flexbox {
-    display: flex;
-    height: 100%;
+.flexbox {
+  display: flex;
+  height: 100%;
 }
 
 .flexbox-item {
-    margin: auto;
-    text-align: left;
-    line-height: 1.5em;
+  margin: auto;
+  text-align: left;
+  line-height: 1.5em;
 }
 
 h1 {
@@ -91,7 +89,7 @@ a {
   color: white;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
   color: white;
 }
@@ -107,15 +105,11 @@ a:hover{
   font-family: 'PT Serif', serif;
   font-size: 37px;
   color: white;
-  
 }
 
-
-p{
+p {
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   line-height: 1.5em;
 }
-
-
