@@ -67,12 +67,16 @@
 }
 
 .number {
-  font-size: 40px;
+  font-family: 'PT Serif', serif;
+  font-size: 37px;
   color: white;
   
 }
 
 p{
   color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 1.5em;
 }
 
