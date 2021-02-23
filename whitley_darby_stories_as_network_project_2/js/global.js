@@ -1,7 +1,7 @@
 window.addEventListener("load", function () {
 
 // Find all popup icons
-var popups = document.querySelectorAll('.icon');
+var popups = document.querySelectorAll('.inline-icon');
 // Loop through each popup using `forEach`
 popups.forEach(function(popup) {
   // Add a `click` event listener to each individual popup
