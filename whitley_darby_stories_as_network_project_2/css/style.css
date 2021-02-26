@@ -8,9 +8,9 @@
   height: 600px;
 }
 
-body {
+/* body {
   background-color: black;
-}
+} */
 
 .grid {
   display: grid;
@@ -25,7 +25,7 @@ body {
 .grid-inside {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 26px;
+  grid-gap: 20px;
   
 }
 
@@ -34,17 +34,12 @@ body {
   background-color: black;
 }
 
-img {
-  max-width: 70%;
-  margin-left: 7px;
-}
-
-
 
 .inline-icon {
     height: 1.5em;
     margin: -.5em 0;
     vertical-align: middle;
+    cursor: pointer;
  
 }
 
@@ -52,6 +47,17 @@ img {
   box-sizing: border-box;
   background-color: rgb(231, 120, 101);
   color: antiquewhite;
+  font-family: 'Montserrat', sans-serif;
+  width: 600px;
+  max-width: 100%;
+  padding: 30px 50px;
+  border-radius: 5px;
+}
+
+.modal-interpret {
+  box-sizing: border-box;
+  background-color: rgb(236, 229, 118);
+  color: black;
   font-family: 'Montserrat', sans-serif;
   width: 600px;
   max-width: 100%;
@@ -78,16 +84,7 @@ img {
   opacity: 1;
 }
 
-.modal-interpret {
-  box-sizing: border-box;
-  background-color: rgb(236, 229, 118);
-  color: black;
-  font-family: 'Montserrat', sans-serif;
-  width: 600px;
-  max-width: 100%;
-  padding: 30px 50px;
-  border-radius: 5px;
-}
+
 
 .flexbox {
   display: flex;
@@ -103,16 +100,17 @@ img {
 h1 {
   font-family: 'PT Serif', serif;
   font-size: 200px;
+  color: black;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 a:hover {
   text-decoration: underline;
-  color: white;
+  color:black;
 }
 
 .author {
@@ -120,12 +118,14 @@ a:hover {
   font-size: 30px;
   margin-top: 113px;
   text-align: center;
+  color: black;
 }
 
 .number {
   font-family: 'PT Serif', serif;
   font-size: 37px;
   color: white;
+  padding: 4px;
 }
 
 p {
@@ -133,6 +133,7 @@ p {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   line-height: 1.5em;
+  padding: 6px;
 }
 
 @media screen and (max-width: 1024px) {
