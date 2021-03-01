@@ -84,6 +84,15 @@
   opacity: 1;
 }
 
+button {
+  background-color: black;
+  border: 0;
+  border-radius: 5px;
+  color: antiquewhite;
+  padding: 4px 5px;
+  font-family: 'PT Serif', serif;
+}
+
 
 
 .flexbox {
@@ -181,7 +190,7 @@ h1 {
 }
 
  .grid-item-inside {
-   height: 657px;
+   height: 804px;
  }
 
  p{
@@ -232,11 +241,16 @@ h1 {
 }
 
  .grid-item-inside {
-   height: 1237px;
+   height: 1412px;
  }
 
  p {
   font-size: 19px;
+}
+
+.inside-bubble {
+  width: 100% ;
+  height: 20%;
 }
   
 }
