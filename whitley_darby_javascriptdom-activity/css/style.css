@@ -47,25 +47,25 @@ img {
       border: 2px;
   }
 
-#square1 {
+.redcolor {
     height: 50px;
     width: 50px;
     background-color: rgb(134, 56, 56);
 }
 
-#square2 {
+.pinkcolor {
     height: 50px;
     width: 50px;
     background-color: rgb(165, 21, 141);
 }
 
-#square3 {
+.greencolor {
     height: 50px;
     width: 50px;
     background-color: rgb(48, 180, 30);
 }
 
-#square4 {
+.bluecolor{
     height: 50px;
     width: 50px;
     background-color: rgb(38, 54, 148);

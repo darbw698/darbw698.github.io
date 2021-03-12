@@ -2,7 +2,7 @@ var button = document.querySelector('#click');
 var container = document.querySelector('#container')
 var counter = document.querySelector('#counter')
 var clear = document.querySelector('#clear')
-var color = document.querySelector('.color')
+var redColor = document.querySelector('.redcolor')
 
 
 button.addEventListener('click', function (event) {
@@ -30,15 +30,26 @@ container.addEventListener('click', function (event) {
 
 clear.addEventListener('click', function (event) {
     container.innerHTML = clear;
-
-});
-
-color.addEventListener('click', function (event) {
-    console.log(event.target);
-    var color = document.querySelector('#square1').style.backgroundColor
     var images = container.querySelectorAll('img');
-    console.log(color);
-    images.forEach(function (img) {
-        img.style.backgroundColor = color;
-    });
+        var count = images.length;
+        console.log(count);
+        counter.innerHTML = count;
+
 });
+
+redColor.addEventListener('click', function (event) {
+    console.log(event.target.style.backgroundColor);
+    var redColor = document.querySelector('.redcolor').style.backgroundColor
+    var images = container.querySelectorAll('img');
+    console.log(redColor);
+    images.forEach(function (img) {
+        images.style.backgroundColor = redColor;
+    });
+
+});
+
+// var images = container.querySelectorAll('img');
+// console.log(color);
+// images.forEach(function (img) {
+//     img.style.backgroundColor = color;
+// });
