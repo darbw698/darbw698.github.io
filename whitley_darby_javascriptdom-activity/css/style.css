@@ -1,0 +1,73 @@
+
+body {
+  background-color: black;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: .5fr 4fr .5fr;
+  grid-gap: 20px;
+}
+
+.grid-item {
+  border: 1px solid black;
+  height: 100px;
+}
+
+.flexbox {
+  display: flex;
+  height: 200%; /* make flexbox container 100% of the height of the grid item. */
+}
+
+.flexbox-item {
+  margin: auto; /* margin: auto inside of a flex container will center the item on each side.  */
+}
+
+.counter {
+  color: rgb(255, 255, 255);
+}
+
+button {
+    background-color: rgb(212, 200, 200);
+    border: 0;
+    border-radius: 5px;
+    color: antiquewhite;
+    padding: 10px 20px;
+    text-transform: uppercase;
+  }
+
+img {
+  position: absolute;
+  width: 30%;
+  height: 60%;
+  cursor: pointer;
+}
+
+.container {
+      border: 2px;
+  }
+
+#square1 {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(134, 56, 56);
+}
+
+#square2 {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(165, 21, 141);
+}
+
+#square3 {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(48, 180, 30);
+}
+
+#square4 {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(38, 54, 148);
+}
+  
