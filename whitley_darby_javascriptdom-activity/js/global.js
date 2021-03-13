@@ -2,7 +2,10 @@ var button = document.querySelector('#click');
 var container = document.querySelector('#container')
 var counter = document.querySelector('#counter')
 var clear = document.querySelector('#clear')
-var redColor = document.querySelector('.redcolor')
+var colorRed = document.querySelector('.redcolor')
+var colorPink = document.querySelector('.pinkcolor')
+var colorGreen = document.querySelector('.greencolor')
+var colorBlue = document.querySelector('.bluecolor')
 
 
 button.addEventListener('click', function (event) {
@@ -34,19 +37,55 @@ clear.addEventListener('click', function (event) {
         var count = images.length;
         console.log(count);
         counter.innerHTML = count;
+        alert('whoa you did it!');
 
 });
 
-redColor.addEventListener('click', function (event) {
-    console.log(event.target.style.backgroundColor);
-    var redColor = document.querySelector('.redcolor').style.backgroundColor
+
+colorRed.addEventListener('click', function (event) {
+    console.log(event.target.style.backgroundColor)
+    var colorRed = document.querySelector('.redcolor').style.backgroundColor
     var images = container.querySelectorAll('img');
-    console.log(redColor);
+    console.log(colorRed);
     images.forEach(function (img) {
-        images.style.backgroundColor = redColor;
-    });
+     img.style.backgroundColor = colorRed;
+});
 
 });
+
+colorPink.addEventListener('click', function (event) {
+    console.log(event.target.style.backgroundColor)
+    var colorRed = document.querySelector('.pinkcolor').style.backgroundColor
+    var images = container.querySelectorAll('img');
+    console.log(colorPink);
+    images.forEach(function (img) {
+     img.style.backgroundColor = colorPink;
+});
+
+});
+
+colorGreen.addEventListener('click', function (event) {
+    console.log(event.target.style.backgroundColor)
+    var colorRed = document.querySelector('.greencolor').style.backgroundColor
+    var images = container.querySelectorAll('img');
+    console.log(colorGreen);
+    images.forEach(function (img) {
+     img.style.backgroundColor = colorGreen;
+});
+
+});
+
+colorBlue.addEventListener('click', function (event) {
+    console.log(event.target.style.backgroundColor)
+    var colorRed = document.querySelector('.bluecolor').style.backgroundColor
+    var images = container.querySelectorAll('img');
+    console.log(colorBlue);
+    images.forEach(function (img) {
+     img.style.backgroundColor = colorBlue;
+});
+
+});
+
 
 // var images = container.querySelectorAll('img');
 // console.log(color);
