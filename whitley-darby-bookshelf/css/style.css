@@ -1,0 +1,134 @@
+body {
+    font-family: 'New Tegomin', serif;
+    background: rgb(199, 160, 160);
+  }
+
+  h1 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 400%;
+  }
+
+  @keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+  }
+
+  a {
+      text-decoration-line: none;
+      color: black;
+  }
+
+  a:hover{
+    text-decoration-line:underline;
+    color: rgb(166, 117, 179);
+}
+  
+  .hidden {
+    display: none !important;
+  }
+  
+  .shelf {
+    border-bottom: 10px solid rgb(48, 40, 40);
+    /* display: flex; */
+    align-items: flex-end;
+    margin-bottom: 2em;
+  }
+  
+  .shelf .book-spine {
+    color: rgb(166, 117, 179);
+  
+    height: fit-content;
+    width: 1408px;
+    padding: 10px 0px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    transform: rotate(360deg);
+  
+    writing-mode: sideways-lr;
+    line-height: 90px;
+    font-size: 100px;
+  
+    cursor: pointer;
+  }
+  
+  .shelf .book-spine.active {
+    background: rgb(61, 121, 129);
+  }
+  
+  .shelf .book-spine:hover {
+    background: rgb(105, 189, 201);
+  }
+  
+  .book-detail {
+    display: flex;
+  }
+  
+  .book-detail .figure {
+    width: 200px;
+    flex: none;
+    margin-right: 30px;
+  }
+  
+  .book-detail .book_cover {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    animation: fade 7s ease-in;
+  }
+  
+  .book-detail .more_info {
+    font-family: 'New Tegomin', serif;
+    font-size: 200%;
+    max-width: 600px;
+    animation: fade 7s ease-in;
+  }
+  
+  .book-detail .title {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0;
+    animation: fade 7s ease-in;
+  }
+  
+  .book-detail .description {
+    font-family: 'Noto Sans TC', sans-serif;
+    margin-top: 0.5em;
+    font-size: 36px;
+    line-height: 1.5;
+    animation: fade 7s ease-in;
+  }
+
+  
+  @media (max-width: 600px) {
+    .book-detail {
+      flex-direction: column;
+    }
+    .book-detail .figure {
+      width: 100%;
+      max-width: 300px;
+      margin: auto;
+      margin-bottom: 2em;
+    }
+
+    .shelf .book-spine {
+        width: 468.5px;
+        padding: 10px 0px;
+        margin-bottom: 2px;
+        margin-right: 2px;
+        transform: rotate(360deg);
+      
+        writing-mode: sideways-lr;
+        line-height: 40px;
+        font-size: 50px;
+      
+        cursor: pointer;
+      }
+  }
+  
