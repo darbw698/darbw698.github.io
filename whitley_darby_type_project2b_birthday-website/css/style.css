@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(240, 223, 185);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-gap: 9px;
+}
+
+.grid-item {
+    height: 1022px;
+}
+
+.flexbox {
+    display: flex;
+    height: 100%;
+}
+
+.flexbox-item {
+    margin: auto;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+.righting-flexbox-item {
+    margin: auto;
+    text-align: right;
+    line-height: 1.5em;
+}
+
+.red-titletext {
+    font-family: blakely, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 228pt;
+    line-height: 1em;
+    color: rgb(142, 57, 30);
+}
+
+.red-bold-text {
+    font-family: blakely, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 94pt;
+    line-height: 1em;
+    color: rgb(142, 57, 30);
+}
+
+.brown-text {
+    font-family: fino-sans, sans-serif;
+    font-weight: 700;
+    font-size: 150pt;
+    font-style: normal;
+    line-height: 1em;
+    color: rgb(85, 71, 55);
+}
+
+.brown-text-kerning-down {
+    font-family: fino-sans, sans-serif;
+    font-weight: 700;
+    font-size: 260pt;
+    font-style: normal;
+    text-align: center;
+    color: rgb(85, 71, 55);
+}
+
+
+.brown-text-kerning-up {
+    font-family: fino-sans, sans-serif;
+    font-weight: 700;
+    font-size: 260pt;
+    font-style: normal;
+    text-align: center;
+    color: rgb(85, 71, 55);
+}
+
+
+.gold-text {
+    font-family: fino-sans, sans-serif;
+    font-weight: 400;
+    font-size: 260pt;
+    font-style: normal;
+    color: rgb(219, 165, 70);
+}
+
+.grid-item-push-down {
+    height: 1216px;
+}
+
+.grid-item-push-up {
+    height: 900px;
+}
+
