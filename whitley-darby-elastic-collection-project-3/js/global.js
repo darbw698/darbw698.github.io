@@ -68,3 +68,12 @@ function updateInformation(fields) {
   document.getElementById("sourceDate").textContent = `Published Date: ${fields["year published"]}`;
   document.getElementById("body-copy").textContent = fields.introduction;
 }
+
+const setBg = () => {
+  const randomColor = Math.floor(Math.random()*16777215).toString(16);
+  document.body.style.backgroundColor = "#" + randomColor;
+  color.innerHTML = "#" + randomColor;
+}
+
+titleButton.addEventListener("click", setBg);
+setBg();
