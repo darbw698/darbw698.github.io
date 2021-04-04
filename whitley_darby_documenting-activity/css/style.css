@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(243, 243, 224);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    margin-bottom: 40px;
+}
+
+.box {
+    height: 100px;
+}
+
+.box-1 {
+    width: 70%;
+    font-size: 71px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 8px;
+}
+
+.grid-item {
+    height: 520px;
+}
+
+.flexbox {
+    display: flex;
+    height: 100%;
+}
+
+.flexbox-item {
+    margin: auto;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+.document-video {
+    align-self: center;
+}
+
+p {
+    font-size: 40px;
+    line-height: 1;
+    text-align: center;
+}
+
+.description {
+    font-size: 40px;
+    text-align: left;
+}
+
+a {
+    font-size: 40px;
+    text-align: left;
+}
