@@ -29,7 +29,7 @@ function gotAllTruths(err) {
     titleShow.textContent = randomTruth.fields.title;
     updateInformation(randomTruth.fields);
   });
-  
+
   var randomIndex = Math.random() * (truths.length - 1);
   console.log(randomIndex);
 
@@ -49,16 +49,41 @@ console.log(button);
 var titleShow = document.getElementById("titles");
 console.log(titleShow);
 
-titles.addEventListener("click",() => {
- if (click === true) {
-  document.getElementById("container").style.display="block"
-  document.getElementById("container").scrollTop=0
- }
- 
+titles.addEventListener("click", () => {
+  if (click === true) {
+    document.getElementById("container").style.display = "block"
+    document.getElementById("container").scrollTop = 0
+  }
+
 });
 
-document.getElementById("back-home").addEventListener("click",() => {
-  document.getElementById("container").style.display=""
+document.getElementById("back-home").addEventListener("click", () => {
+  document.getElementById("container").style.display = ""
+});
+
+var list = document.getElementById("clickable-list");
+console.log(list);
+
+var listItems = document.getElementsByClassName("list-source");
+console.log(listItems);
+
+
+
+document.getElementById("back-home-2").addEventListener("click", () => {
+  document.getElementById("list-container").style.display = "none"
+});
+
+list.addEventListener("click", () => {
+  document.getElementById("list-container").style.display = "block"
+  document.getElementById("list-container").scrollTop = 0
+  console.log("clicked")
+  for (i = 0; i < listItems.length; i++) {
+    console.log(truths[i].fields.title);
+    listItems.textContent = truths[0].fields.title;
+    
+    // updateInformation(truths.fields);
+  }
+
 });
 
 
@@ -69,11 +94,25 @@ function updateInformation(fields) {
   document.getElementById("body-copy").textContent = fields.introduction;
 }
 
-const setBg = () => {
-  const randomColor = Math.floor(Math.random()*16777215).toString(16);
+
+var setBg = () => {
+  const randomColor = Math.floor(Math.random() * 16777215).toString(16);
   document.body.style.backgroundColor = "#" + randomColor;
-  color.innerHTML = "#" + randomColor;
+  // color.innerHTML = "#" + randomColor;
 }
 
 titleButton.addEventListener("click", setBg);
 setBg();
+
+
+
+// function gotAllListTruths(err) {
+//   console.log("gotAllListTruths()");
+//   list.addEventListener("click", () => {
+//     // click = true;
+  
+
+    
+//   });
+
+// }
