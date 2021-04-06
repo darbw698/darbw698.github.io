@@ -43,6 +43,8 @@ function gotAllTruths(err) {
 
 }
 
+
+
 var button = document.getElementById("titleButton");
 console.log(button);
 
@@ -79,12 +81,24 @@ list.addEventListener("click", () => {
   console.log("clicked")
   for (i = 0; i < listItems.length; i++) {
     console.log(truths[i].fields.title);
-    listItems.textContent = truths[0].fields.title;
-    
-    // updateInformation(truths.fields);
+    listItems[i].innerText = truths[i].fields.title;
+    listItems[i].dataset.number = i
+    listItems[i].addEventListener("click", () => {
+      click = true;
+      var element = event.currentTarget;
+      console.log(element);
+      var pickedTitle = truths[element.dataset.number];
+      console.log(pickedTitle);
+      document.getElementById("container").style.display = "block"
+      document.getElementById("container").scrollTop = 0
+      listItems.textContent = pickedTitle.fields.title;
+      updateInformation(pickedTitle.fields);
+    });
   }
 
+
 });
+
 
 
 function updateInformation(fields) {
@@ -104,15 +118,3 @@ var setBg = () => {
 titleButton.addEventListener("click", setBg);
 setBg();
 
-
-
-// function gotAllListTruths(err) {
-//   console.log("gotAllListTruths()");
-//   list.addEventListener("click", () => {
-//     // click = true;
-  
-
-    
-//   });
-
-// }
