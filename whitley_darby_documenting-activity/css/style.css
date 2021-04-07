@@ -16,6 +16,7 @@ body {
 
 .box-1 {
     width: 70%;
+    font-family: 'Quicksand', sans-serif;
     font-size: 71px;
 }
 
@@ -26,7 +27,7 @@ body {
 }
 
 .grid-item {
-    height: 520px;
+    height: 660px;
 }
 
 .flexbox {
@@ -46,6 +47,7 @@ body {
 
 p {
     font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
     line-height: 1;
     text-align: center;
 }
@@ -57,5 +59,89 @@ p {
 
 a {
     font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
     text-align: left;
+    text-decoration: none;
+    color: black;
 }
+
+a:hover {
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    background-color: rgb(167, 222, 224);
+}
+
+@media screen and (max-width: 900px) {
+    .grid {
+        display: block;
+    }
+
+    .box-1 {
+        width: 70%;
+        font-size: 40px;
+    }
+
+    .grid-item {
+        height: 420px;
+    }
+    
+   
+    
+  }
+
+@media screen and (max-width: 700px) {
+    .grid {
+        display: block;
+    }
+
+    .box-1 {
+        width: 70%;
+        font-size: 40px;
+    }
+
+    .grid-item {
+        height: 420px;
+    }
+    
+   
+    
+  }
+  
+  @media screen and (max-width: 568px) {
+    .grid {
+        display: block;
+    }
+
+    .box-1 {
+        width: 70%;
+        font-size: 40px;
+    }
+
+    .grid-item {
+        height: 420px;
+    }
+
+    
+   
+  }
+  
+  
+  @media screen and (max-width: 375px) {
+    .grid {
+        display: block;
+    }
+
+    .box-1 {
+        width: 70%;
+        font-size: 40px;
+    }
+
+    .grid-item {
+        height: 420px;
+    }
+
+    
+    
+  }
+  
