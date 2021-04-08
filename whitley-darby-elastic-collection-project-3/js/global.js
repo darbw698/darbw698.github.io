@@ -117,4 +117,3 @@ var setBg = () => {
 
 titleButton.addEventListener("click", setBg);
 setBg();
-
