@@ -20,7 +20,7 @@ body {
 .flexbox-item {
     margin: auto;
     text-align: left;
-    line-height: 1.5em;
+    line-height: 1em;
 }
 
 .righting-flexbox-item {
@@ -39,14 +39,14 @@ body {
     font-family: blakely, sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 228pt;
+    font-size: 100pt;
     line-height: 1em;
     color: rgb(142, 57, 30);
 }
 
 .red-bold-text {
     font-family: blakely, sans-serif;
-    font-weight: 700;
+    font-weight: 300;
     font-style: normal;
     font-size: 94pt;
     line-height: 1em;
@@ -56,31 +56,26 @@ body {
 .brown-text {
     font-family: fino-sans, sans-serif;
     font-weight: 700;
-    font-size: 150pt;
+    font-size: 80pt;
     font-style: normal;
-    line-height: 1em;
+    text-align: left;
+    height: 30px;
+    line-height: 1;
     color: rgb(85, 71, 55);
+}
+
+.grid-item-moveup {
+    height: 300px;
 }
 
 .brown-text-kerning-down {
     font-family: fino-sans, sans-serif;
     font-weight: 700;
-    font-size: 260pt;
+    font-size: 250pt;
     font-style: normal;
-    text-align: center;
+    text-align: left;
     color: rgb(85, 71, 55);
 }
-
-
-.brown-text-kerning-up {
-    font-family: fino-sans, sans-serif;
-    font-weight: 700;
-    font-size: 260pt;
-    font-style: normal;
-    text-align: center;
-    color: rgb(85, 71, 55);
-}
-
 
 .gold-text {
     font-family: fino-sans, sans-serif;
@@ -99,19 +94,15 @@ body {
     color: rgb(219, 165, 70);
 }
 
-.grid-item-push-down {
-    height: 1216px;
-}
-
-.grid-item-push-up {
-    height: 800px;
-}
-.grid-item-push-up2 {
-    height: 600px;
-}
-
-.grid-item-push-up3 {
-    height: 600px;
+.brown-textmove {
+    font-family: fino-sans, sans-serif;
+    font-weight: 700;
+    font-size: 80pt;
+    font-style: normal;
+    text-align: left;
+    height: 200px;
+    line-height: 1;
+    color: rgb(85, 71, 55);
 }
 
 .rsvp-button {
@@ -128,4 +119,63 @@ body {
     outline: none;
 }
 
+@media screen and (max-width: 375px ) {
+    .grid {
+        display: block;
+    }
 
+    .grid-item {
+        height: 400px;
+    }
+
+    img {
+        width: 110%;
+        height: 110%;
+    }
+    .righting-flexbox-item {
+        text-align: center;
+        line-height: 1.5em;
+    }
+    
+    .red-titletext {
+        font-size: 90px;
+    }
+
+    .red-bold-text {
+        font-size: 70px;
+    }
+
+    .grid-item-moveup {
+        height: 3000px;
+    }
+
+    .brown-textmove {
+        font-size: 60px;
+        height: 300px;
+    }
+
+    .brown-text {
+        font-size: 50px;
+        height: 50px;
+    }
+
+    .gold-text {
+        font-size: 100px;
+    }
+
+    .gold-text2 {
+        font-size: 100px;
+    }
+
+    .brown-text-kerning-down {
+        font-size: 110px;
+    }
+
+    .rsvp-button {
+        left: 14%;
+        font-size: 80pt;
+        width: 300px;
+        height: 150px;
+    }
+
+}
