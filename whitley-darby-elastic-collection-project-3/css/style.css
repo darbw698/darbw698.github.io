@@ -19,11 +19,32 @@ body {
   height: 100px;
 }
 
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+
 .box-1 {
   width: 50%;
   font-family: 'Noto Serif', serif;
   font-size: 700;
   font-size: 51px;
+  /* color: transparent;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5); */
 }
 
 .box-2 {
@@ -44,6 +65,13 @@ body {
   font-weight: 400;
   font-size: 50px;
   cursor: pointer;
+  color: transparent;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.box-3:hover {
+  color: white;
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
 }
 
 .random-picker {
@@ -52,19 +80,22 @@ body {
   position: absolute;
   font-family: 'Noto Serif', serif;
   font-weight: 400;
-  top: 80%;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
   height: 60px;
   width: 80px;
   outline: none;
+  cursor: pointer;
+  
 }
+
 
 .box-1-title {
   width: 100%;
   font-family: 'Noto Serif', serif;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 35px;
   margin-bottom: 1%;
 }
 
@@ -125,6 +156,13 @@ body {
   width: 100px;
   font-size: 20px;
   text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.web-links:hover {
+  color: rgb(117, 86, 48);
+  text-decoration-line: underline;
 }
 
 .back-home {
@@ -138,6 +176,7 @@ body {
   width: 55px;
   outline: none;
   border: none;
+  cursor: pointer;
 }
 
 .back-home-2 {
@@ -150,6 +189,7 @@ body {
   width: 55px;
   outline: none;
   border: none;
+  cursor: pointer;
 }
 
 .info-container {
@@ -184,10 +224,14 @@ body {
   height: 50%;
   margin-bottom: 7%;
   text-align: center;
+  color: transparent;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
 .box-4:hover {
   background-color: cornsilk;
+  color:black;
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
 }
 
 /* .box-5 {
