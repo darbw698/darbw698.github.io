@@ -366,7 +366,7 @@ body {
   }
   .body-text {
     top: 30%;
-    left: 16%;
+    left: 17%;
     width: 634px;
     font-size: 30px;
     
@@ -384,8 +384,8 @@ body {
   }
 
   .back-home{
-    height: 70px;
-    width: 70px;
+    height: 56px;
+    width: 56px;
     font-size: 100%;
   }
 
@@ -421,7 +421,7 @@ body {
 
   .body-text {
     top: 60%;
-    left: 16%;
+    left: 19%;
     width: 310px;
     font-size: 20px;
     
@@ -429,6 +429,11 @@ body {
   .box-1-title {
     font-size: 30px;
     margin-bottom: 30%;
+  }
+
+  .back-home {
+    height: 56px;
+    width: 56px;
   }
 
   .box-2-author {
