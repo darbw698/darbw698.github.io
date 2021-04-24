@@ -33,8 +33,9 @@
 
 .grid-item {
     border: 1px solid black;
-    height: 3003%;
+    height: 38000%;
 }
+
 
 .flexbox {
     display: flex;
@@ -44,7 +45,6 @@
 .flexbox-item {
     margin: auto;
 }
-
 
 .box1 {
     position: absolute;
@@ -88,4 +88,12 @@
     background: #DFBB5E;
     border: 1px solid #000000;
     box-sizing: border-box;
+}
+
+.deardiary {
+    font-size: 40px;
+}
+
+.prompt {
+    font-size: 30px;
 }
