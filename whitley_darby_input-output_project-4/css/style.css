@@ -11,9 +11,9 @@
     width: 100%;
     padding-left: 10px;
     padding-right: 10px;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     height: 100px;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .col-1 {
@@ -23,6 +23,25 @@
 .col-2 {
     width: 50%;
     text-align: right;
+    cursor: pointer;
+}
+
+.plus {
+    font-size: 55pt;
+    font-weight: bold;
+    padding: 1px 10px;
+    border: none;
+    background-color: transparent;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.direction {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(180, 178, 178);
 }
 
 .grid {
@@ -31,11 +50,22 @@
     grid-gap: 20px;
 }
 
+
 .grid-item {
     border: 1px solid black;
     height: 38000%;
 }
 
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.grid-item2 {
+    border: 1px solid black;
+    height: 30000%;
+}
 
 .flexbox {
     display: flex;
@@ -90,10 +120,81 @@
     box-sizing: border-box;
 }
 
-.deardiary {
-    font-size: 40px;
+.info-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow-y: auto;
+    background-color:rgb(255, 255, 255);
+    display: none;
+    z-index: 10;
+  }
+
+.about-site {
+    font-size: 60px;
+    line-height: 1;
 }
 
 .prompt {
-    font-size: 30px;
+    font-size: 45px;
+}
+
+.text-entry-pink {
+    position: absolute;
+    width: 307px;
+    height: 546px;
+    left: 26px;
+    top: 142px;
+    background: #F4AFED;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.text-entry-green {
+    position: absolute;
+    width: 307px;
+    height: 546px;
+    left: 26px;
+    top: 142px;
+    background: #A6DB94;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.text-entry-yellow {
+    position: absolute;
+    width: 307px;
+    height: 546px;
+    left: 26px;
+    top: 142px;
+    background: #DFBB5E;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.text-entry-blue {
+    position: absolute;
+    width: 307px;
+    height: 546px;
+    left: 26px;
+    top: 142px;
+    background: #B0C0E9;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+#textarea {
+    position: absolute;
+    top: 40px;
+    left: 8px;
+    width: 290px;
+    height: 477px;
+    padding: 10px 30px;
+    border: 0px;
+    background-color: inherit;
+    font-size: 12pt;
+    line-height: 20pt;
+    overflow: auto;
+    outline: 0;
 }
