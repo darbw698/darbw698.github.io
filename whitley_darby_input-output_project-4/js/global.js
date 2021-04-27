@@ -46,4 +46,4 @@ function createDiaryEntry({ color = 'pink' } = {}) {
   container.append(title, textarea, submitButton);
 
   return container;
-}
+
