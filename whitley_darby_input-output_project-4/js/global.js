@@ -1,24 +1,24 @@
-var infoContainer = document.getElementById("about");
+var infoContainer = document.getElementById('about');
 console.log(infoContainer);
 
-var backButton = document.getElementById("home");
+var backButton = document.getElementById('home');
 console.log(backButton);
 
-var newEntry = document.getElementById("add-button");
-console.log(newEntry);
+var newBox = document.getElementById('add-button');
+console.log(newBox);
 
-// about.addEventListener("click", () => {
+// about.addEventListener('click', () => {
 //       document.getElementById("container").style.display = "block";
 //       document.getElementById("container").scrollTop = 0;
-//
-// });
-//
-// home.addEventListener("click", () => {
-//     document.getElementById("container").style.display = "none";
-//     document.getElementById("container").scrollTop = 0;
+
 // });
 
-newEntry.addEventListener("click", () => {
+// home.addEventListener('click', () => {
+//     document.getElementById('container').style.display = "none";
+//     document.getElementById('container').scrollTop = 0;
+// });
+
+newBox.addEventListener('click', () => {
   const entry = createDiaryEntry({
     color: document.documentElement.dataset.diaryColor
   });
