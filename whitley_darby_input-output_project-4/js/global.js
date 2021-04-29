@@ -7,16 +7,16 @@ console.log(backButton);
 var newBox = document.getElementById('add-button');
 console.log(newBox);
 
-// about.addEventListener('click', () => {
-//       document.getElementById("container").style.display = "block";
-//       document.getElementById("container").scrollTop = 0;
+about.addEventListener('click', () => {
+      document.getElementById("container").style.display = "block";
+      document.getElementById("container").scrollTop = 0;
 
-// });
+});
 
-// home.addEventListener('click', () => {
-//     document.getElementById('container').style.display = "none";
-//     document.getElementById('container').scrollTop = 0;
-// });
+home.addEventListener('click', () => {
+    document.getElementById('container').style.display = "none";
+    document.getElementById('container').scrollTop = 0;
+});
 
 newBox.addEventListener('click', () => {
   const entry = createDiaryEntry({
