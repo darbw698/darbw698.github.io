@@ -7,24 +7,17 @@ console.log(backButton);
 var newBox = document.getElementById('add-button');
 console.log(newBox);
 
-// about.addEventListener('click', () => {
-//       document.getElementById("container").style.display = "block";
-//       document.getElementById("container").scrollTop = 0;
 
-// });
-
-// home.addEventListener('click', () => {
-//     document.getElementById('container').style.display = "none";
-//     document.getElementById('container').scrollTop = 0;
-// });
-
-newBox.addEventListener('click', () => {
-  const entry = createDiaryEntry({
-    color: document.documentElement.dataset.diaryColor
+if (newBox) {
+  newBox.addEventListener('click', () => {
+    const entry = createDiaryEntry({
+      color: document.documentElement.dataset.diaryColor
+    });
+    document.querySelector('.grid2').appendChild(entry);
+    entry.querySelector('.textarea').focus();
   });
-  document.querySelector('.grid2').appendChild(entry);
-  entry.querySelector('.textarea').focus();
-});
+}
+
 
 function createDiaryEntry({ color = 'pink' } = {}) {
   const container = document.createElement('div');
@@ -47,3 +40,14 @@ function createDiaryEntry({ color = 'pink' } = {}) {
 
   return container;
 }
+
+about.addEventListener('click', () => {
+  document.getElementById("container").style.display = "block";
+  document.getElementById("container").scrollTop = 0;
+
+});
+
+home.addEventListener('click', () => {
+document.getElementById('container').style.display = "none";
+document.getElementById('container').scrollTop = 0;
+});
