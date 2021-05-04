@@ -122,6 +122,18 @@ img {
     width: 100%;
 }
 
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+    font-size: larger;
+    
+}
+
 .box1 {
     position: absolute;
     width: 271px;
@@ -193,14 +205,16 @@ img {
     bottom: 0;
     right: 0;
     background-color: rgb(255, 255, 255);
+    opacity: 0.9;
     display: none;
     z-index: 10;
 }
 
 .about-site {
+    color:black;
     font-size: 70px;
     line-height: 1;
-    padding: 13px;
+    padding: 15px;
 }
 
 .back {
@@ -274,15 +288,6 @@ img {
     font-family: 'Suranna', serif;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    color: white;
-    
-}
 
 @media screen and (max-width: 1024px) {
     .grid {
@@ -308,6 +313,10 @@ a:hover {
     }
     img {
         height: 123%;
+    }
+
+    .about-site {
+        font-size: 79px;
     }
 }
 
@@ -335,6 +344,9 @@ a:hover {
     }
     img {
         height: 160%;
+    }
+    .about-site {
+        font-size: 59px;
     }
 }
 
@@ -422,5 +434,9 @@ a:hover {
     }
     .info {
         font-size: 80px;
+    }
+
+    .direction {
+        font-size: 15px;
     }
 }
